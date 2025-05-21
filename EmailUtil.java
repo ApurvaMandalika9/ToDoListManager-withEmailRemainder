@@ -5,8 +5,8 @@ import java.util.Properties;
 
 public class EmailUtil {
     public static void sendEmail(String toEmail, String subject, String body) {
-        final String fromEmail = "mandalikaapurva@gmail.com"; // Your Gmail
-        final String password = "dzqx txmh zxqm juis";     // App password
+        final String fromEmail = "xyz@gmail.com"; // Your Gmail
+        final String password = "password";     // App password
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
